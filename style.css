@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url(./fonts/PlusJakartaText-Regular.otf);
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(./fonts/Helvetica\ Neue\ Medium\ Extended.ttf);
+}
+
+html{
+
+    box-sizing: border-box;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body{
+    margin: 0 auto ;
+}
+.cardo{
+    display: flex;
+    
+}
+
+.cardo_header{
+    display: flex;
+    justify-content:start;
+}
+.star{
+    margin-top: 30px;
+}
+.vector{
+    margin-top: 30px;
+}
+.button{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.cardo_inner{
+    padding: 20px;
+}
+.menu_list{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 15px;
+    line-height: 18px;
+
+    
+}
+
+
+.menu_list-item2{
+    margin-left: 50px;
+}
+.menu_list-item3{
+    margin-left: 50px;
+}
+.menu_list-item4{
+    margin-left: 50px;
+}
+.menu_link{
+    color: #1d1d1c;
+    font-family:"Plus Jakarta Sans" ;
+}
+.cardo_title{
+    font-family: "Cormorant Garamond";
+    color: rgba(29, 29, 28, 1);
+    font-style: normal;
+    font-size: 35px;
+    line-height: 45px;
+    
+}
+.cardo_text{
+    font-family: "Plus Jakarta Sans";
+    color: rgba(29, 29, 28, 1);
+    margin-top: 30px;
+}
+.button_btn{
+    width: 130px;
+    height: 30px;
+    border-radius:80px;
+    border: none;
+    background-color: rgba(17, 37, 62, 1);
+    color: white;
+}
+.button_btn-item{
+    color: rgba(10, 37, 64, 1);
+    font-family: "Helvetica Neue";
+    margin-left: 20px;
+}
+.cardo_card_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: -37px;
+}
+.cardo_active{
+    font-family:"Plus Jakarta Sans";
+}
+.cardo_number{
+    font-family:"Plus Jakarta Sans" ;
+    font-size: 22px;
+}
+.cardo_card{
+    background: linear-gradient(#e6cad3, #b2b2e9);
+    width: 100%;
+    
+}
+.button_hand{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.hand{
+    background-image: url(./images/hand_01.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    min-height: 100vh;  
+    position: relative; 
+}
+.hand_card{
+    position: absolute;
+    top: 87px;
+}
+
+.button_hand-btn{
+    background-color: #1D1D1C;
+    color: white;
+    font-family:"Plus Jakarta Sans" ;
+    width: 165px;
+    height: 32px;
+    font-size: 13px;
+    line-height: 17px;
+    border-radius: 20px;
+    border: none;
+}
+.btn_sign{
+    font-family:"Plus Jakarta Sans" ;
+    background-color:white;
+    color: #1D1D1C;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.chip{
+    width: 50px;
+    height: 45px;
+   
+}
+
+.wifi_img{
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+.plastic_wifi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plastic_card{
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+    height: 250px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.Lopez_text{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 5px;
+}
+.lopez_num{
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 4px;
+}
+.card_name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.plastic_elc{
+    margin-top: 40px;
+}
